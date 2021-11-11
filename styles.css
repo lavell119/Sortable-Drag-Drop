@@ -1,11 +1,15 @@
 body {
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background-color: #333;
     padding: 1rem;
     margin-top: 1rem;
+    width: 500px;
 }
 
 .draggable {
@@ -17,4 +21,20 @@ body {
 
 .draggable.dragging {
     opacity: .5;
+}
+
+#draggable1 {
+    background: blue;
+}
+
+#draggable2 {
+    background:red;
+}
+
+#draggable3 {
+    background: green;
+}
+
+#draggable4 {
+    background: yellow;
 }
